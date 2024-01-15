@@ -1,0 +1,126 @@
+body {
+    background-color: #f0f2f5;
+  }
+
+/* Style the sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: linear-gradient(45deg, hsla(217, 100%, 50%, 1) 0%, hsla(197, 100%, 63%, 1) 100%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 40px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* Change color on hover */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(45deg, hsla(217, 100%, 50%, 1) 0%, hsla(197, 100%, 63%, 1) 100%);
+}
+
+.jumbotron h1 {
+  margin-bottom: 0;
+}
+
+.jumbotron p {
+  margin-top: 30px;
+}
+
+.btn-upper-right {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #4a89dc;
+}
+
+.card {
+  display: flex;
+  background: hsla(217, 100%, 50%, 1);
+  flex-direction: column;
+  align-items: center;
+  border: 0.1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color:#222;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+ }
+ 
+ .member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+ }
+ 
+ .member-info {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-right: 70px;
+ }
+ 
+ .member-info h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 2px;
+ }
+ 
+ .member-info p {
+  font-size: 16px;
+  color: #c1bbbb;
+ }
+
+  
+.footer {
+  text-align: center;
+  padding: 20px;
+ }
+ 
+ .footer p {
+  font-size: 14px;
+  color: #777;
+ }
